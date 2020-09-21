@@ -113,22 +113,22 @@ img {
    align-items: center;
    background-color: rgb(54, 54, 73);
    border-top: 5px solid blue;
-   height: 30vh;
+   height: 40vh;
 }
 .contact-section-header {
    margin-top: 0;
-   font-size: 30px;
+   font-size: 50px;
    color: rgb(4, 4, 59);
 }
 .contact-links {
    display: flex;
    justify-content: space-between;
-   width: 400px;
+   width: 500px;
 }
 .contact-links > a {
-   color: rgb(0, 204, 240);
+   color: white;
    text-decoration: none;
-   font-size: 25px;
+   font-size: 30px;
 }
 .contact-links >a:hover {
    transform: scale(1.2);
@@ -137,4 +137,16 @@ img {
    .contact-links {
       width: 100%;
    }
+   .contact-links > a {
+      font-size: 25px;
+   }
+}
+.fa-linkedin-square {
+   color: rgb(0, 119, 255);
+}
+.fa-github {
+   color: #000;
+}
+.fa-facebook-square {
+   color: rgb(0, 110, 255);
 }
